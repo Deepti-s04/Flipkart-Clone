@@ -1,0 +1,139 @@
+*{
+    margin : 0;
+    font-family:Arial;
+    border: border-box;
+    
+}
+.navbar{
+    height: 67px;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.searchbar input {
+    background-color:#f0f5ff; /* match container */
+    border: none; /* remove default border */
+    outline: none; /* remove blue glow on click */
+    color: rgb(0, 0, 0); /* set text color */
+    font-size: 14px;
+    width: 750px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.profile-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 20px; */
+    gap: 8px;
+}
+.user{
+    font-style: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.cart p{
+    font-size: 17px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/* NAVBAR2 */
+.navbar2 {
+    background-color:  #f0f5ff;
+    padding: 15px 15px 15px 15px; 
+}
+
+.nav2-panel1 {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 128px;
+    width:1590px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content select{
+    border: none;
+    outline: none;
+}
+.navbar2 p{
+    font-size: 13px;
+    font-weight: 570;
+}
+.navbar2 img{
+    height: 64px;
+    width: 64px;
+}
+.panel3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    height: 200px;
+    padding:  15px 15px 15px;
+    background-color:  #f0f5ff;
+}
+.panel3 img{
+    width:100%;
+    height: 230px;
+    /* padding:15px 15px 15px 15px; */
+}
+.panel4 img{
+    height: 150px;
+    width: 150px;
+}
+.panel4{
+    background-color:  #f0f5ff;
+    
+    padding:15px 15px 15px 15px;
+}
+.electonics{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 280px;
+    width:100%;
+}
+.nav2-panel1, .electonics{
+    width: 100%;
+    /* max-width: 1500px; */
+    margin: 0 auto;
+}
+
+.content2 p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sidepic img{
+    height: 100%;
+    
+
+}
